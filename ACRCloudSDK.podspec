@@ -13,7 +13,6 @@ s.source                = { :git => 'https://github.com/GYFK/ACRCloudSDK.git', :
 s.requires_arc          = true
 s.source_files          = 'ACRCloudSDK/*.{h,m}'
 s.public_header_files   = 'ACRCloudSDK/*.h'
-s.exclude_files         = 'ACRCloudSDK/Dummy.{h,m}'
 s.pod_target_xcconfig   = { 'OTHER_LDFLAGS' => '-ObjC -lc++ -lacrcloud_ios_sdk' }
 s.vendored_library      = 'ACRCloudSDK/include/libacrcloud_ios_sdk.a'
 s.libraries             = 'c++', 'acrcloud_ios_sdk'
