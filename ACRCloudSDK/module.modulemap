@@ -1,0 +1,5 @@
+framework module ACRCloudSDK {
+
+  umbrella header "ACRCloudRecognition.h"
+  module * { export * }
+}
