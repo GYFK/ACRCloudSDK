@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
    s.requires_arc          = true
    s.source_files          = 'ACRCloudSDK/*.{h,m}'
    s.public_header_files   = 'ACRCloudSDK/*.h'
-   s.pod_target_xcconfig   = { 'OTHER_LDFLAGS' => '-ObjC -lc++ -lACRCloud_IOS_SDK' }
-   s.vendored_library      = 'ACRCloudSDK/include/libACRCloud_IOS_SDK.a'
+   s.pod_target_xcconfig   = { 'OTHER_LDFLAGS' => '-ObjC -lc++ -lacrcloud_ios_sdk' }
+   s.vendored_library      = 'ACRCloudSDK/include/libacrcloud_ios_sdk.a'
    s.frameworks            = 'AVFoundation', 'Security', 'AudioToolbox'
    s.libraries             = 'c++', 'acrcloud_ios_sdk'
 
