@@ -9,5 +9,5 @@
 #import "ACRCloudVersion.h"
 
 NS_ASSUME_NONNULL_BEGIN
-NSString *const ACRCloudFrameworkVersionString = @"1.4.2";
+NSString *const ACRCloudFrameworkVersionString = @"1.4.3";
 NS_ASSUME_NONNULL_END
