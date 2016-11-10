@@ -4,9 +4,12 @@
 @interface ACRCloudRecognition : NSObject
 
 -(id)initWithConfig:(ACRCloudConfig*)config;
+
 -(void)startPreRecord:(NSInteger)recordTime;
 -(void)stopPreRecord;
+
 -(void)startRecordRec;
+
 -(void)stopRecordRec;
 
 -(NSString*)recognize:(char*)buffer len:(int)len;

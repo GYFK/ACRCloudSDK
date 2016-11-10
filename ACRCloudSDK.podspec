@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
    s.name                  = 'ACRCloudSDK'
-   s.version               = '1.4.2'
+   s.version               = '1.4.3'
    s.summary               = 'ACRCloud is a reliable automatic content recognition cloud services'
    s.description           = 'Music Recogniton, Audio Recognition, TV Channel Detection, Recognise Media Contents on TV for Second Screen Apps, Offline Audio Recognition'
    s.homepage              = 'https://www.acrcloud.com'
@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
    s.requires_arc          = true
    s.source_files          = 'ACRCloudSDK/*.{h,m}'
    s.public_header_files   = 'ACRCloudSDK/*.h'
-   s.pod_target_xcconfig   = { 'OTHER_LDFLAGS' => '-ObjC -lc++ -lacrcloud_ios_sdk' }
-   s.vendored_library      = 'ACRCloudSDK/include/libacrcloud_ios_sdk.a'
+   s.pod_target_xcconfig   = { 'OTHER_LDFLAGS' => '-ObjC -lc++ -lACRCloud_IOS_SDK' }
+   s.vendored_library      = 'ACRCloudSDK/include/libACRCloud_IOS_SDK.a'
    s.frameworks            = 'AVFoundation', 'Security', 'AudioToolbox'
    s.libraries             = 'c++', 'acrcloud_ios_sdk'
 

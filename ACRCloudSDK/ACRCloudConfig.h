@@ -23,7 +23,9 @@ typedef enum {
 
 
 typedef void(^ACRCloudResultBlock)(NSString *result, ACRCloudResultType resType);
+
 typedef void(^ACRCloudStateBlock)(NSString *state);
+
 typedef void(^ACRCloudVolumeBlock)(float volume);
 
 @interface ACRCloudConfig : NSObject
@@ -39,6 +41,7 @@ typedef void(^ACRCloudVolumeBlock)(float volume);
     ACRCloudStateBlock _stateBlock;
     ACRCloudVolumeBlock _volumeBlock;
 }
+
 
 @property(nonatomic, retain) NSString *accessKey;
 @property(nonatomic, retain) NSString *accessSecret;

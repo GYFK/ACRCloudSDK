@@ -14,6 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		147CE96C1DD43109009ECD92 /* ACRCloudSDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ACRCloudSDK.podspec; sourceTree = "<group>"; };
 		4463BBEA1DA440FD00AE6EA5 /* ACRCloudSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ACRCloudSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4463BBEE1DA440FD00AE6EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		446C188C1DA52FC500C1E0D8 /* ACRCloudVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRCloudVersion.h; sourceTree = "<group>"; };
@@ -38,6 +39,7 @@
 			isa = PBXGroup;
 			children = (
 				44CEE15C1DA51F0100A1EAEB /* module.modulemap */,
+				147CE96C1DD43109009ECD92 /* ACRCloudSDK.podspec */,
 				4463BBEC1DA440FD00AE6EA5 /* ACRCloudSDK */,
 				4463BBEB1DA440FD00AE6EA5 /* Products */,
 			);
